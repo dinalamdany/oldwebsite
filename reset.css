@@ -1,0 +1,92 @@
+/* Reset CSS, with many thanks to Richard Clark of html5doctor.com
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i, 
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	padding: 0;
+	margin: 0;
+	border:0;
+	outline:0;
+	font-size: 100%;
+	vertical-align:baseline;
+	}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	}
+address, caption, cite, code, dfn, em, 
+h1, h2, h3, h4, h5, h6, strong, th, var {
+	font-weight: normal;
+	font-style: normal;
+	}
+body {
+	background:white;
+	line-height:1;
+	color:black;
+	}
+nav ul, ul {
+	list-style: none;
+	}
+caption, th, td {
+	text-align: left;
+	}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+} 
+blockquote,q {
+	quotes: none;
+	}
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+	}
+a, ins {
+	text-decoration: none;
+	}
+del {
+	text-decoration:line-through;
+	}
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+	}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+	}
+	
+input, select {
+    vertical-align:middle;
+	}
+
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+	}
+	
+input:required, textarea:required {
+	-moz-box-shadow:none;  
+    -webkit-box-shadow:none;  
+    -o-box-shadow:none;  
+    box-shadow:none;  
+    }
